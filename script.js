@@ -72,32 +72,44 @@ $(document).ready(function(){
     });
     // Project Move Method
     $('#pj1').click(function() {
-        location.href = 'https://github.com/Maengmo/Development-of-necessary-information-and-travel-destination-recommendation-app-using-public-data';
+        window.open('https://github.com/Maengmo/Development-of-necessary-information-and-travel-destination-recommendation-app-using-public-data', '_blank');
     });
     
     $('#pj2').click(function() {
-        location.href = 'https://github.com/Maengmo/Traffic_Combine';
+        window.open('https://github.com/Maengmo/Traffic_Combine', '_blank');
+    });
+    
+    $('#pj3').click(function() {
+        window.open('https://github.com/Maengmo/Education_Center_Management_System', '_blank');
+    });
+    
+    $('#pj4').click(function() {
+        window.open('https://github.com/Maengmo/Portfolio', '_blank');
     });
 
-    $('#pj3').click(function() {
-        location.href = 'https://github.com/Maengmo/Education_Center_Management_System';
+    $('#pj5').click(function() {
+        window.open('https://github.com/Maengmo/JejuEottae', '_blank');
+    });
+
+    $('#pj6').click(function() {
+        window.open('https://github.com/Maengmo/Animingle', '_blank');
     });
 
     // Arcaving Move Method
     $('#git').click(function() {
-        location.href = 'https://github.com/Maengmo';
+        window.open('https://github.com/Maengmo', '_blank');
     });
-
+    
     $('#insta').click(function() {
-        location.href = 'https://instagram.com/hwan_young_0508?igshid=YmMyMTA2M2Y=';
+        window.open('https://instagram.com/hwan_young_0508?igshid=YmMyMTA2M2Y=', '_blank');
     });
-
+    
     $('#tistory').click(function() {
-        location.href = 'https://maengmo.tistory.com/';
+        window.open('https://maengmo.tistory.com/', '_blank');
     });
-
+    
     $('#backjun').click(function() {
-        location.href = 'https://solved.ac/profile/kcv5424';
+        window.open('https://solved.ac/profile/kcv5424', '_blank');
     });
 
     //Mail send Method
@@ -163,6 +175,12 @@ $(document).ready(function(){
       
     $('#card1').click(function() {
         toggleServices2();
+        var box = this.querySelector('.box');
+        if (box.style.transform === 'none') {
+            box.style.transform = '';
+        } else {
+            box.style.transform = 'none';
+        }
     });
 
     //project2
@@ -181,6 +199,12 @@ $(document).ready(function(){
       
     $('#card2').click(function() {
         toggleServices3();
+        var box = this.querySelector('.box');
+        if (box.style.transform === 'none') {
+            box.style.transform = '';
+        } else {
+            box.style.transform = 'none';
+        }
     });
 
     //project3
@@ -199,6 +223,12 @@ $(document).ready(function(){
       
     $('#card3').click(function() {
         toggleServices4();
+        var box = this.querySelector('.box');
+        if (box.style.transform === 'none') {
+            box.style.transform = '';
+        } else {
+            box.style.transform = 'none';
+        }
     });
 
     //project4
@@ -217,6 +247,12 @@ $(document).ready(function(){
       
     $('#card4').click(function() {
         toggleServices5();
+        var box = this.querySelector('.box');
+        if (box.style.transform === 'none') {
+            box.style.transform = '';
+        } else {
+            box.style.transform = 'none';
+        }
     });
 
     //project5
@@ -235,6 +271,12 @@ $(document).ready(function(){
       
     $('#card5').click(function() {
         toggleServices6();
+        var box = this.querySelector('.box');
+        if (box.style.transform === 'none') {
+            box.style.transform = '';
+        } else {
+            box.style.transform = 'none';
+        }
     });
 
     //project6
@@ -253,6 +295,12 @@ $(document).ready(function(){
       
     $('#card6').click(function() {
         toggleServices7();
+        var box = this.querySelector('.box');
+        if (box.style.transform === 'none') {
+            box.style.transform = '';
+        } else {
+            box.style.transform = 'none';
+        }
     });
 
 
