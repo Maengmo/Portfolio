@@ -133,10 +133,10 @@ $(document).ready(function(){
             "display" : ""
         });
         alert("전송이 완료되었습니다! 감사합니다!");
-        $('#name').val("");
-        $('#email').val("");
-        $('#subject').val("");
-        document.getElementById("content").value="";
+        //$('#name').val("");
+        //$('#email').val("");
+        //$('#subject').val("");
+        //document.getElementById("content").value="";
     });
 
     //Project detail
