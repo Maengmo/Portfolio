@@ -136,7 +136,7 @@ $(document).ready(function(){
         $('#name').val("");
         $('#email').val("");
         $('#subject').val("");
-        document.getElementById("fieldTextarea").value="";
+        document.getElementById("content").value="";
     });
 
     //Project detail
