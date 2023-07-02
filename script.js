@@ -100,7 +100,7 @@ $(document).ready(function(){
         window.open('https://github.com/Maengmo', '_blank');
     });
     
-    $('#insta').click(function() {
+    $('.insta').click(function() {
         window.open('https://instagram.com/hwan_young_0508?igshid=YmMyMTA2M2Y=', '_blank');
     });
     
@@ -108,8 +108,12 @@ $(document).ready(function(){
         window.open('https://maengmo.tistory.com/', '_blank');
     });
     
-    $('#backjun').click(function() {
+    $('.backjun').click(function() {
         window.open('https://solved.ac/profile/kcv5424', '_blank');
+    });
+
+    $('#notion').click(function() {
+        window.open('https://www.notion.so/DH-blog-c87dd8351bf84aa38c105b724e80d917?pvs=4', '_blank');
     });
 
     //Mail send Method
