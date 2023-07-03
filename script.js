@@ -113,7 +113,7 @@ $(document).ready(function(){
     });
 
     $('#notion').click(function() {
-        window.open('https://www.notion.so/DH-blog-c87dd8351bf84aa38c105b724e80d917?pvs=4', '_blank');
+        window.open('https://actually-comet-7eb.notion.site/c87dd8351bf84aa38c105b724e80d917?v=b03faaa199a0467aba8710337b339145', '_blank');
     });
 
     //Mail send Method
