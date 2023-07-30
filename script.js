@@ -95,6 +95,10 @@ $(document).ready(function(){
         window.open('https://github.com/Maengmo/Animingle', '_blank');
     });
 
+    $('#pj7').click(function() {
+        window.open('https://github.com/Maengmo/HamCompany', '_blank');
+    });
+
     // Arcaving Move Method
     $('#git').click(function() {
         window.open('https://github.com/Maengmo', '_blank');
