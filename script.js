@@ -307,5 +307,29 @@ $(document).ready(function(){
         }
     });
 
+    //project7
+    function toggleServices8() {
+        const pro7 = $('#plus7');
+        if (pro7.css('display') === 'none') {
+            pro7.slideDown();
+          $('#detail').text('Closing Detail');
+        } else {
+            $('html,body').animate({
+                scrollTop: $('#card7').position().top -200
+            }, 10);
+           pro7.slideUp(1000);
+        }
+    }
+      
+    $('#card7').click(function() {
+        toggleServices8();
+        var box = this.querySelector('.box');
+        if (box.style.transform === 'none') {
+            box.style.transform = '';
+        } else {
+            box.style.transform = 'none';
+        }
+    });
+
 
 });
