@@ -1,76 +1,108 @@
-# 👨‍💻 나만의 포트폴리오(My Portfolio) 👨‍💻
-### IT업계에서 빛나는 인재로 성장하고 싶은, 끊임 없이 노력하는 김대환입니다. 무엇이든 매사에 최선을 다하고 배움의 자세로 임하겠습니다. 감사합니다.<br>          
-<br>    
-   
-## ⁉ 나의 소개 🙇🏼
-  <p>안녕하세요. 저는 컴퓨터공학을 전공으로 공부하며, S/W 개발 분야에 대해 관심을 쌓아 왔고,</p>
-  <p>그 중에서도 프로그래밍을 통해 무에서 유를 창조해내는 것에 대해 즐거움을 느껴왔습니다.</p>
-  <p>현재 순천향대학교 컴퓨터공학과를 졸업하고, 쌍용 교육센터 풀스텍 개발자 과정을 수료하였습니다.</p>
-  <p>현재 몇가지의 프로젝트를 진행하여 보았지만, IT 업계에서 더욱 다양한 사람들과 더 많은 프로젝트를 진행해보며, 전문적인 기술과 성취의 경험을 쌓아가고 싶습니다.</p>
-   
-  <br> 
-   
-## ✔ 프로젝트 진행 내역 
-1. 국내통합 예약시스템 - 국내 기차, 버스, 비행기 통합 예약시스템의 부재를 보완 및 추가하여 개발한 국내 통합예약 시스템.
-2. 공공데이터를 활용한 여행지 앱 - 공공데이터 파서,파싱을 통해 여행지에 대한 정보를 담고, 카카오맵 API를 통해 도커에 위치를 표시하고, 사용자에게 여행지를 추천해주는 시스템.
-3. 교육센터 관리시스템 : 강의 과정 구성, 강의 일정 운영, 교사 및 교육생 관리 등 교육기관 내 행정 및 교육 서비스 관련 기능을 제공해주는 시스템.
-4. 나만의 포트폴리오 : 현재 저장소에 위치한 사이트로, 나의 정보들을 담을 수 있는 나만의 포트폴리오 공간.
-5. 제주 여행에는 제주어때 : 제주도 여행에 대한 정보를 제공, 사업자는 사용자에게 합리적인 가격을 제안하고, 여행객은 앱의 정보들을 대상으로 원하는 곳을 예약할 수 있는 시스템.
-6. 애니밍글 :  다양한 반려동물 관련 기능을 한 플랫폼들의 기능들을 통합하여 반려동물을 사랑하는 사람들에게 편리한 서비스와 정보를 제공하여주는 시스템.
-7. 함해볼텨 : 사람들이 자신의 재능과 능력을 광범위한 일자리 세계에서 활용하고, 새로운 도전을 이어나가도록 돕는 시스템.
+# 김대환 · Full-Stack Developer
+
+> Spring Boot · JPA · Vue · React 기반의 풀스택 개발자 포트폴리오
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-818cf8?style=flat-square&logo=vercel&logoColor=white)](https://maengmo.github.io/Portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-Maengmo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Maengmo)
+[![Blog](https://img.shields.io/badge/Blog-Tistory-FF5722?style=flat-square&logo=tistory&logoColor=white)](https://maengmo.tistory.com/)
+[![Notion](https://img.shields.io/badge/Notion-Portfolio-000000?style=flat-square&logo=notion&logoColor=white)](https://actually-comet-7eb.notion.site/c87dd8351bf84aa38c105b724e80d917)
 
 <br>
 
-## 📝 학력 사항
-- 🏫 순천향대학교 컴퓨터공학과 졸업
-- 🖥 쌍용교육센터 풀스텍개발자 이수
+## 소개
+
+설계–개발–배포–운영 전 과정을 표준과 안정성 중심으로 수행해온 풀스택 개발자입니다.  
+ERP 연동 회계 시스템, IP 관리 시스템, 팬덤 커머스 플랫폼 등 대규모 프로젝트에서  
+핵심 개발자 및 PM 역할을 수행하며 다양한 도메인의 실무 경험을 쌓아왔습니다.
+
+| | |
+|---|---|
+| **재직** | 콘텐트리중앙 · 웹개발 · 2023.12 ~ 재직중 |
+| **경력** | 2년 5개월 |
+| **이메일** | kcv0822@gmail.com |
 
 <br>
 
-## 💡 주요 사용 언어
-### ✔ 사용 언어
-- <img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white"> 
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-### ✔ Backend
-- <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
-    <img src="https://img.shields.io/badge/Ajax-ECD53F?style=for-the-badge&logo=Ajax&logoColor=white">
-### ✔ Operating System
-- <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=macOs IDEA&logoColor=white"> 
-    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=Windows IDEA&logoColor=white"> 
-### ✔ DB
-- <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white">
-    <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-### ✔ WEP
-- <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-     <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-     <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-     <img src="https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=jsp&logoColor=white">
-     <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
-    <img src="https://img.shields.io/badge/apachetomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
-### ✔ Used at least once
-- <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=white">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=C++&logoColor=white">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white">
-  <img src="https://img.shields.io/badge/Apache Spark-E25A1C?style=for-the-badge&logo=Apache&logoColor=white">
+## Tech Stack
+
+**Backend**  
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Framework](https://img.shields.io/badge/Spring_Framework-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat-square&logoColor=white)
+
+**Frontend**  
+![Vue.js](https://img.shields.io/badge/Vue.js_3-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**Database**  
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![MSSQL](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+
+**DevOps & Infra**  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+
+**Security & Etc**  
+![ISMS](https://img.shields.io/badge/ISMS-인증대응-0052CC?style=flat-square)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
 <br>
 
-## 📜 관련 자격증
-- 💻 정보처리기사
-- 📊 SQLD
+## Career Projects
+
+> 콘텐트리중앙 재직 중 수행한 실무 프로젝트입니다.
+
+| # | 프로젝트 | 기간 | 역할 | 주요 기술 |
+|---|---|---|---|---|
+| 1 | 크롤링 모니터링 자동화 시스템 | 2024.01 ~ 03 | BE / FE | Spring Boot 3, Vue 3, MySQL, Selenium |
+| 2 | ERP 연동 회계/정산 시스템 | 2024.02 ~ 09 | 설계 / BE / FE | Spring Boot 3, Vue 2, JPA, MariaDB, SAP |
+| 3 | 커피 브랜드 웹사이트 | 2024.04 ~ 10 | 설계 / BE / FE | Spring Boot 3, Vue 3, Oracle, ISMS |
+| 4 | IP 관리 시스템 | 2024.11 ~ 2025.05 | 설계 / BE | Spring Boot 3, React 18, JPA, MariaDB |
+| 5 | **팬덤-Commerce & CMS 플랫폼** | 2025.05 ~ 12 | **PM** / 풀스택 | Spring Boot 3, Vue 3, Supabase, Oracle Cloud |
+| 6 | SaaS CMS 시스템 | 2025.09 ~ 현재 | BE / FE | Spring Boot 3, Thymeleaf, MyBatis, SQL Server |
 
 <br>
 
-## 📭 연락처
-- kcv5424@naver.com
-- kcv0508@gmail.com
+## Education
+
+| | | |
+|---|---|---|
+| 🎓 | **순천향대학교** 컴퓨터공학과 편입 졸업 | 2021.03 ~ 2023.02 · GPA 3.68/4.5 |
+| 📚 | **쌍용교육센터** Java 기반 웹 개발 과정 수료 | 2023.02 ~ 2023.07 |
 
 <br>
 
-## 🙋🏼‍♂️ 포트폴리오 URL
-- https://maengmo.github.io/Portfolio/
+## Certifications
 
+| 자격증 | 발급기관 | 취득일 |
+|---|---|---|
+| 정보처리기사 | 한국산업인력공단 | 2022.09 |
+| SQL 개발자 (SQLD) | 한국데이터베이스진흥센터 | 2023.07 |
 
+<br>
 
+## Links
 
-
+| | |
+|---|---|
+| 🌐 **Portfolio** | https://maengmo.github.io/Portfolio/ |
+| 💻 **GitHub** | https://github.com/Maengmo |
+| ✍️ **Tech Blog** | https://maengmo.tistory.com/ |
+| 📝 **Notion** | https://actually-comet-7eb.notion.site/c87dd8351bf84aa38c105b724e80d917 |
+| 📧 **Email** | kcv0822@gmail.com |
