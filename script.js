@@ -141,3 +141,39 @@ window.addEventListener('scroll', () => {
 scrollTopBtn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+/* =====================================================
+   Image lightbox
+   ===================================================== */
+const lightbox    = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+
+function openLightbox(src, alt) {
+    lightboxImg.src = src;
+    lightboxImg.alt = alt || '확대 이미지';
+    lightbox.classList.add('open');
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+    lightbox.classList.remove('open');
+    lightbox.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    lightboxImg.src = '';
+}
+
+document.querySelectorAll('.mockup__img, .pcard__preview img').forEach(img => {
+    img.addEventListener('click', (e) => {
+        e.stopPropagation();           // 카드 토글과 분리
+        openLightbox(img.src, img.alt);
+    });
+});
+
+document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) closeLightbox();   // 배경 클릭 시 닫기
+});
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox();
+});

@@ -48,11 +48,14 @@ ERP 연동 회계 시스템, IP 관리 시스템, 팬덤 커머스 플랫폼 등
 ![MSSQL](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 
 **DevOps & Infra**  
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 
@@ -70,12 +73,14 @@ ERP 연동 회계 시스템, IP 관리 시스템, 팬덤 커머스 플랫폼 등
 
 | # | 프로젝트 | 기간 | 역할 | 주요 기술 |
 |---|---|---|---|---|
-| 1 | 크롤링 모니터링 자동화 시스템 | 2024.01 ~ 03 | BE / FE | Spring Boot 3, Vue 3, MySQL, Selenium |
+| 1 | 크롤링 모니터링 자동화 시스템 _(사이드 프로젝트)_ | 2024.01 ~ 03 | BE / FE | Spring Boot 3, Vue 3, MySQL, Selenium |
 | 2 | ERP 연동 회계/정산 시스템 | 2024.02 ~ 09 | 설계 / BE / FE | Spring Boot 3, Vue 2, JPA, MariaDB, SAP |
 | 3 | 커피 브랜드 웹사이트 | 2024.04 ~ 10 | 설계 / BE / FE | Spring Boot 3, Vue 3, Oracle, ISMS |
 | 4 | IP 관리 시스템 | 2024.11 ~ 2025.05 | 설계 / BE | Spring Boot 3, React 18, JPA, MariaDB |
-| 5 | **팬덤-Commerce & CMS 플랫폼** | 2025.05 ~ 12 | **PM** / 풀스택 | Spring Boot 3, Vue 3, Supabase, Oracle Cloud |
-| 6 | SaaS CMS 시스템 | 2025.09 ~ 현재 | BE / FE | Spring Boot 3, Thymeleaf, MyBatis, SQL Server |
+| 5 | **팬덤-Commerce & CMS 플랫폼** _(사이드 프로젝트)_ | 2025.05 ~ 12 | **PM** / 풀스택 | Spring Boot 3, Vue 3, Supabase, Kubernetes, Jenkins |
+| 6 | SaaS CMS 시스템 | 2025.09 ~ 2026.05 | BE / FE | Spring Boot 3, Thymeleaf, MyBatis, SQL Server |
+| 7 | **주간보고 시스템** _(사이드 프로젝트)_ | 2026.01 ~ 06 | **1인 단독** / 풀스택 | Vue.js, Java, Spring Boot, LDAP |
+| 8 | **[Lorv Hair 미용실 웹사이트](https://lorvhair.com/)** _(사이드 · 운영중)_ | 운영중 | **1인 단독** | HTML, CSS, Supabase, GitHub Actions, Cloudflare Workers |
 
 <br>
 

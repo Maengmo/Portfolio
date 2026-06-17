@@ -874,6 +874,16 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     font-weight: 600;
 }
 
+.badge-side {
+    font-size: 0.66rem;
+    padding: 2px 9px;
+    border-radius: 100px;
+    background: rgba(192,132,252,0.12);
+    color: var(--accent-2);
+    border: 1px solid rgba(192,132,252,0.3);
+    font-weight: 600;
+}
+
 .pcard__summary {
     font-size: 0.85rem;
     color: var(--text-muted);
@@ -899,6 +909,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     display: block;
     transition: transform 0.5s var(--ease), filter 0.3s;
     filter: brightness(0.82) saturate(0.85);
+    cursor: zoom-in;
 }
 .pcard__preview-overlay {
     position: absolute;
@@ -915,6 +926,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     opacity: 0;
     transition: opacity var(--t);
     backdrop-filter: blur(2px);
+    pointer-events: none;
 }
 .pcard:hover .pcard__preview { border-color: var(--border-hi); transform: translateY(-2px); }
 .pcard:hover .pcard__preview img { transform: scale(1.06); filter: brightness(1) saturate(1); }
@@ -1015,6 +1027,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     object-fit: cover;
     object-position: top;
     transition: transform 0.5s var(--ease);
+    cursor: zoom-in;
 }
 .pcard:hover .mockup__img { transform: scale(1.015); }
 
@@ -1041,6 +1054,40 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     background: rgba(192,132,252,0.1);
     color: var(--accent-2);
     font-weight: 600;
+}
+
+.pdetail__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 14px;
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--accent-3);
+    background: rgba(52,211,153,0.1);
+    border: 1px solid rgba(52,211,153,0.3);
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+.pdetail__cta:hover {
+    background: rgba(52,211,153,0.18);
+    transform: translateY(-1px);
+}
+
+.pdetail__access { margin-top: 14px; }
+.pdetail__lock {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 100px;
+    font-size: 0.76rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    background: rgba(255,255,255,0.03);
+    border: 1px dashed var(--border);
 }
 
 .pdetail__list { display: flex; flex-direction: column; gap: 7px; }
@@ -1331,4 +1378,59 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     .hero__actions .btn { justify-content: center; }
     .footer__inner { flex-direction: column; text-align: center; }
     .container { padding: 0 18px; }
+}
+
+/* =====================================================
+   Image lightbox
+   ===================================================== */
+.lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 5vw;
+    background: rgba(8, 10, 16, 0.88);
+    backdrop-filter: blur(6px);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+    cursor: zoom-out;
+}
+.lightbox.open {
+    opacity: 1;
+    visibility: visible;
+}
+.lightbox__img {
+    max-width: 100%;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    cursor: default;
+    transform: scale(0.96);
+    transition: transform 0.25s ease;
+}
+.lightbox.open .lightbox__img {
+    transform: scale(1);
+}
+.lightbox__close {
+    position: absolute;
+    top: 22px;
+    right: 26px;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+.lightbox__close:hover {
+    background: rgba(255,255,255,0.18);
 }
